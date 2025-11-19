@@ -22,7 +22,7 @@ def main():
     
     # Format stats sesuai output yang diinginkan
     stats_data = {
-        'count': f"{stats['count']:.2f}",
+        'count': f"{stats['count']}",
         'mean': f"{stats['mean']:.2f}",
         'std': f"{stats['std']:.2f}",
         'min': f"{stats['min']:.2f}",
